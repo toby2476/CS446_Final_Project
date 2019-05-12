@@ -6,12 +6,6 @@ Parameters
 	b: 	Emission probabilities (num_states x alphabet)
 	pi:  Starting probabilities (num_states,)
 	seq: Sequence of observations
-Variables
-	v: DP Matrix (len(seq) x num_states)
-	bt: Backtrace Matrix (len(seq) x num_states)
-Retvals:
-	prob: P(O,Q), the joint probability for list of states and list of observations
-	state_list: The list of predicted states in sequence
 '''
 
 #the forward algorithm
