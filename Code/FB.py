@@ -2,9 +2,9 @@ import numpy as np
 
 '''
 Parameters
-	a:	Transition probabilities (num_states x num_states)
-	b: 	Emission probabilities (num_states x alphabet)
-	pi:  Starting probabilities (num_states,)
+	a: Transition probabilities (num_states x num_states)
+	b: Emission probabilities (num_states x alphabet)
+	pi: Starting probabilities (num_states,)
 	seq: Sequence of observations
 '''
 
